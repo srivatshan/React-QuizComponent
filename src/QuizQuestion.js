@@ -36,7 +36,7 @@ class QuizQuestion extends Component{
                     </li>                             
                 </ul>
                 </section>
-                {this.state.incorrectAnswer ? <p className="Error">Sorry, that's not right</p>: null} 
+                {this.state.incorrectAnswer ? <p className="error">Sorry, that's not right</p>: null} 
             </main>
         )
     }
